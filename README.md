@@ -1,9 +1,8 @@
-# Protocol
+# Communication
+
+The app is master and cap is slave.
 
 ## Finite State Automaton
-
-Cap behavior
-
 
 ```mermaid
 graph TD;
@@ -25,3 +24,7 @@ graph TD;
   A -->|ping| C;
   C -->|pong| A;
 ```
+
+## Protocol
+
+Each action must end with a stop from the cap.
